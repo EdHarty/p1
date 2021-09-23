@@ -3,6 +3,18 @@
     margin:0;
     padding:0;
     border: none;
+    color:#3a3a3a
 }
 body {font-family: scheherazade new, sans-serif;
 font-weight: 400;}
+
+/* heading and logo */ 
+
+h1, h2 {
+    font-family: roboto, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color:#252525
+}
+#logo {float: left;
+font-size: 280%;}
