@@ -1,1 +1,8 @@
-body {font-family: Arial;}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Scheherazade+New&display=swap');
+* {
+    margin:0;
+    padding:0;
+    border: none;
+}
+body {font-family: scheherazade new, sans-serif;
+font-weight: 400;}
