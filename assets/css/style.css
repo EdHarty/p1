@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Caramel&display=swap');
 * {
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     border: none;
     color:#3a3a3a
 }
@@ -51,13 +51,11 @@ margin-right: 30px;}
     height: 600px;
     width: 100%;
     overflow:hidden;
-
     position: relative;
 }
 
 #cover-text, #cover-text h2 {
     color:#fff;
-
 }
 
 #hero-image {
@@ -146,6 +144,26 @@ hr {
 
 }
 
+.right-about-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+
+}
+
+.right-about-heading h2 {
+    text-align: right;
+}
+
+.right-about-heading p {
+    text-align: right;
+}
+
+
+
+
 #welcome {
     text-align: center;
     margin: 20px 0;
@@ -166,5 +184,5 @@ hr {
 #circle-cover-bg {
     background: url('../images/center-image.jpg') no-repeat center center;
     height: 100%;
-    border-radius:50%;
+    border-radius: 50%;
 }
