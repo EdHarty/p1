@@ -212,6 +212,10 @@ hr {
     box-sizing: border-box;
 }
 
+#panel h3 {
+    font-size: 80%;
+}
+
 /* footer */
 
 footer {
@@ -392,7 +396,7 @@ transform: scale(1);
 
 /* For medium screen sizes from 950px wide and down */
 
-@media screen and (max-width:950px) {
+@media screen and (max-width: 950px) {
 
     #menu {
         clear: left;
