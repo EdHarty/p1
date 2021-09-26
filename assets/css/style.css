@@ -364,7 +364,7 @@ transform: scale(1);
         margin: 0;
     }
 
-    #left-about {
+    #left-about, #right-about {
         width: 100%;
         float: left;
         padding: 0;
@@ -375,6 +375,14 @@ transform: scale(1);
         width: 100%;
         float: left;
         padding: 0;
+    }
+    
+    #panel > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+
     }
 
     hr {
@@ -418,6 +426,7 @@ transform: scale(1);
         text-align: center;
         padding: 0 20px;
     }
+
 }
     
 
